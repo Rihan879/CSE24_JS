@@ -1,5 +1,5 @@
-console.log("hello world");
-document.write("Hello World");
+// console.log("hello world");
+// document.write("Hello World");
 var num = 10;
         console.log(num);
         console.log(typeof(num));
