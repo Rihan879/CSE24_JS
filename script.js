@@ -17,6 +17,33 @@ if(sym1 == sym2) {
 }    else {
     console.log("false")
 }
-// var a = 100; var b = 12; var c = 10;
-// var linebreak = "<br/>";
-// var name = (age<18)?"too young":"old enough";
+var a = 100; var b = 12; var c = 10;
+var linebreak = "<br/>";
+document.write("a+b=");
+result=a+b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a-b=");
+result=a-b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a*b=");
+result=a*b;
+document.write(result);
+document.write(linebreak);
+
+console.log("a/b=");
+result=a/b;
+console.log(result);
+
+
+// let age = 15;
+// var vote = (age<18)?"too young":"old enough";
+var count;
+document.write("starting loop" + "<br/>");
+for(count = 0; count<10; count++) {
+    document.write("current count :" + count);
+
+}
