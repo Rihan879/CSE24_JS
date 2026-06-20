@@ -30,6 +30,7 @@
 
     <button onclick="increaseCount()">Increase</button>
     <button onclick="decreaseCount()">Decrease</button>
+    <button onclick="resetCount()">Reset</button>
 
     <script>
         let totalClicks = 0;
@@ -40,7 +41,14 @@
         }
 
         function decreaseCount() {
-            totalClicks--;
+             if (totalClicks > 0) {
+                totalClicks--;
+            }
+            document.getElementById("count").textContent = totalClicks;
+        }
+
+        function resetCount() {
+            totalClicks = 0;
             document.getElementById("count").textContent = totalClicks;
         }
     </script>
