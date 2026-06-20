@@ -47,25 +47,33 @@
 //     document.write("current count :" + count);
 
 // }
-var grade='A';
-document.write("Entering switch block<br/>")
-function myfunction(){
-    alert("Hello World")
-}
-function sayHello(name,age){
-    document.write(name+" is"+age+" year old")
-}
-var res=mul(12,30);
-function mul(){
-    Document.write(mul);
-}
-function add(x,y){
-    return x+y;
-}
-var person= new Object();{
-    person.name="Rihan";
-    person.age=20;
-    person.address={Masuri};
-    person['address']['home No']=484;
+// var grade='A';
+// document.write("Entering switch block<br/>")
+// function myfunction(){
+//     alert("Hello World")
+// }
+// function sayHello(name,age){
+//     document.write(name+" is"+age+" year old")
+// }
+// var res=mul(12,30);
+// function mul(){
+//     Document.write(mul);
+// }
+// function add(x,y){
+//     return x+y;
+// }
+// var person= new Object();{
+//     person.name="Rihan";
+//     person.age=20;
+//     person.address={Masuri};
+//     person['address']['home No']=484;
 
+// }
+
+function myfunction() {
+    alert("Button clicked!");
+}
+
+function sayHello(name, age) {
+    alert("Hello " + name + "! You are " + age + " years old.");
 }
