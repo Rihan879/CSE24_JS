@@ -70,10 +70,20 @@
 
 // }
 
+// function myfunction() {
+//     alert("Button clicked!");
+// }
+
+// function sayHello(name, age) {
+//     alert("Hello " + name + "! You are " + age + " years old.");
+// }
+
+
 function myfunction() {
-    alert("Button clicked!");
+    document.body.style.backgroundColor = "lightblue";
 }
 
 function sayHello(name, age) {
-    alert("Hello " + name + "! You are " + age + " years old.");
+    document.write("<h2>Welcome " + name + "</h2>");
+    document.write("<p>Age: " + age + "</p>");
 }
